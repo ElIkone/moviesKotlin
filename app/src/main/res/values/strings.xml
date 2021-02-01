@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MoviesDatabase</string>
+    <string name="todo">TODO</string>
+    <string name="api_key">1609818c5e2f435330c30dba561e86bc</string>
 </resources>
