@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Popular"
+        android:visible="true" />
+    <item
+        android:id="@+id/action_rated"
+        android:orderInCategory="100"
+        android:title="Top_Rated"
+        android:visible="true" />
+    <item
+        android:id="@+id/favorites"
+        android:orderInCategory="100"
+        android:title="Favorites"
+        android:visible="true" />
+</menu>
