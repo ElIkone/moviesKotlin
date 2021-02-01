@@ -1,7 +1,7 @@
 package com.example.moviesdatabase.model
 import androidx.room.Entity
 
-@Entity(tableName = "movie")
+@Entity(tableName = "movies")
 data class Movie (
 val id: Int,
 val title: String,
