@@ -7,15 +7,19 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.moviesdatabase.ui.MainFragment"
+        android:name="com.example.moviesdatabase.ui.movieList.MainFragment"
         android:label="MainFragment" >
         <action
             android:id="@+id/action_mainFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.example.moviesdatabase.ui.DetailsFragment"
+        android:name="com.example.moviesdatabase.ui.movieDetails.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" />
 </navigation>
