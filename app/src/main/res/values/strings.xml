@@ -5,4 +5,6 @@
     <string name="top_rated">Top Rated</string>
     <string name="popular">Popular</string>
     <string name="favorites">Favorites</string>
+    <string name="release_Date">Release Date:</string>
+    <string name="summary">Summary</string>
 </resources>
